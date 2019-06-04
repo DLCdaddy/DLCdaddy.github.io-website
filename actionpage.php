@@ -6,5 +6,5 @@
     $password = $_POST["password"];
     if (null!== $_POST["password"]&& $password = "password") eval("topage('/page1.htm')")
     ?>
-</body
+</body>
 </html>
