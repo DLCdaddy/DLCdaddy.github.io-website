@@ -1,4 +1,1 @@
-function topage (page)
-{
-    window.location.assign(page);
-}
+window.location.assign("/page1.html");
