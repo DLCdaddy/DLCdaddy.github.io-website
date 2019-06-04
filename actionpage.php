@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head><script type="text/javascript" src="/scripts.js"></script></head>
 <body>
     <?php
     $password = $_POST["password"];
-    if (isset($_POST["password"]&& $password = "password") eval(echo(<script>window.location.assign(" https://website-eagames.c9users.io/page1.html")</script>));
+    if (null!== $_POST["password"]&& $password = "password") eval("topage('/page1.htm')")
     ?>
 </body
 </html>
