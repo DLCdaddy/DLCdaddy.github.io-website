@@ -1,17 +1,11 @@
 body {
   background-color: darkred;
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Times, sans-serif;
   text-align: center;
   padding: 0;
 }
 
-.wrapper {
-  margin: 10px auto;
-  max-width: 300px;
-  padding: 30px 95px 31px 30px;
-  border: 4px double white;
-}
 
 h1 {
   font-size: 60px;
@@ -25,4 +19,8 @@ h1 {
 h1 span {
   display: block;
   font-size: 50%;
+}
+form {
+
+  
 }
