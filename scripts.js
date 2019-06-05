@@ -1,1 +1,3 @@
-window.location.assign("/page1.html");
+(document).bind("contextmenu",function(e) {
+     e.preventDefault();
+});

@@ -3,6 +3,7 @@
 <body>
     <?php
     session_start();
+    header("Content-Encoding: gzip");
     $_SESSION["password"] = convert_uuencode($_POST["password"]);
     if (null!==  $_SESSION["password"]  &&  $_SESSION["password"]  == convert_uuencode("password")) 
         header("Location: /page1.html");
