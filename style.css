@@ -1,17 +1,17 @@
 body {
   background-color: black;
   color: red;
-  font-family: "Gill Sans", "Gill Sans MT", Times, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", times , sans-serif;
   text-align: center;
   padding: 0;
-}
+}A
 
 
 h1 {
   font-size: 60px;
   letter-spacing: 2px;
   text-transform: capitalize;
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 30px;
   margin-bottom: 0;
 }
@@ -29,4 +29,5 @@ h1 span {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  
 }
