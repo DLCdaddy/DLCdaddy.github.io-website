@@ -23,7 +23,7 @@ h1 span {
  #submit {
   background-color: black; 
   border: 2px white;
-  color: white;
+  color: red;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;

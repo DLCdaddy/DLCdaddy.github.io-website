@@ -2,9 +2,9 @@
 <html>
 <body>
     <?php
-    
-    $password = convert_uuencode($_POST["password"]);
-    if (null!== $password && $password == convert_uuencode("password")) 
+    session_start();
+    $_SESSION["password"] = convert_uuencode($_POST["password"]);
+    if (null!==  $_SESSION["password"]  &&  $_SESSION["password"]  == convert_uuencode("password")) 
         header("Location: /page1.html");
     else 
         header("Location: /Index.html");
