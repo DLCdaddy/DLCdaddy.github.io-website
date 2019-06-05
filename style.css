@@ -20,7 +20,7 @@ h1 span {
   display: block;
   font-size: 50%;
 }
- button {
+ #submit {
   background-color: black; 
   border: 2px white;
   color: white;
