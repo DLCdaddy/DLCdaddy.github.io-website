@@ -2,9 +2,12 @@
 <html>
 <body>
     <?php
-    $password = $_POST["password"];
-    if (null!== $password && $password == "password") 
-       header("Location: /page1.html")
+    
+    $password = convert_uuencode($_POST["password"]);
+    if (null!== $password && $password == convert_uuencode("password")) 
+        header("Location: /page1.html");
+    else 
+        header("Location: /Index.html");
     ?>
 </body>
 </html>
