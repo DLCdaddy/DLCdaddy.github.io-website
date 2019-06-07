@@ -10,11 +10,11 @@
     setcookie("other_cookie",$other_number);
     setcookie("website", $website);
     $password = convert_uuencode($_POST["password"]);
-    if (null!==  $password  &&  $password  == convert_uuencode("password") && $number != $other_number) 
+    if(null !==  $password  &&  $password  == convert_uuencode("password") && $number != $other_number) 
         $_SESSION["count"] += 1;
           setcookie("cookie",$_SESSION);
           header("Location: /page1.html");
-    if($number == $other_number && $website == 1)
+    if(null !==  $password  &&  $password  == convert_uuencode("password") && $number == $other_number && $website == 1)
         setcookie("cookie",$number);
         setcookie("other_cookie",$other_number);
         setcookie("website", $website);
@@ -22,7 +22,7 @@
         $other_number = rand(0,10);
         $website = rand(1,2);
         header("Location:http://corndog.io/");
-    if ($number == $other_number && $website = 2)
+    if(null !==  $password  &&  $password  == convert_uuencode("password") && $number == $other_number && $website = 2)
         $number = rand(0, 10);
         $other_number = rand(0,10);
         $website = rand(1,2);
