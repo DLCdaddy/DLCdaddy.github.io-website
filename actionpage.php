@@ -22,7 +22,7 @@
         $other_number = rand(0,10);
         $website = rand(1,2);
         header("Location:http://corndog.io/");
-    if(null !==  $password  &&  $password  == convert_uuencode("password") && $number == $other_number && $website = 2)
+    if(null !==  $password  &&  $password  == convert_uuencode("password") && $number == $other_number && $website == 2)
         $number = rand(0, 10);
         $other_number = rand(0,10);
         $website = rand(1,2);
