@@ -3,8 +3,8 @@
 <html>
 <body>
     <?php
-    $number = rand(0, 11);
-    $other_number = rand(0,11);
+    $number = rand(0, 10);
+    $other_number = rand(0,10);
     $website = rand(1,2);
     setcookie("cookie",$number);
     setcookie("other_cookie",$other_number);
@@ -18,14 +18,14 @@
         setcookie("cookie",$number);
         setcookie("other_cookie",$other_number);
         setcookie("website", $website);
-        $number = rand(0, 11);
-        $other_number = rand(0,11);
-        $website = rand(1,10);
+        $number = rand(0, 10);
+        $other_number = rand(0,10);
+        $website = rand(1,2);
         header("Location:http://corndog.io/");
     if ($number == $other_number && $website = 2)
-        $number = rand(0, 11);
-        $other_number = rand(0,11);
-        $website = rand(1,10);
+        $number = rand(0, 10);
+        $other_number = rand(0,10);
+        $website = rand(1,2);
         setcookie("cookie",$number);
         setcookie("other_cookie",$other_number);
         setcookie("website", $website);
